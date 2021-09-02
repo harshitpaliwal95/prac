@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(salad-2068220_1920.jpg);
+    background-size: 100%;
+    opacity: 75%;
+    color: white;
+    font-family: 'Nerko One', cursive;
+}
+
+.left{
+    display: inline-block;
+}
+.left img{
+    width: 72px;
+    margin: 15px;
+}
+.right{
+   
+    float: right;
+    width: 50%;
+    margin: 1px 13px;
+    padding: 4px 13px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a {
+    font-family: 'Nerko One', cursive;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    padding: 6px 18px;
+    margin: 8px 35px;
+}
+.navbar li a:hover{
+    background-color: rgb(56, 56, 56);
+}
+.contaner{
+    border: 7px solid grey;
+    border-radius: 24px;
+    margin: 42px 254px;
+    padding: 53px 20px;
+    width: 35%;
+    
+}
+.contaner h1{
+    text-align: center;
+    font-size: 45px
+}
+.contaner input{
+    display: block;
+    font-size: 22px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    margin: 9px auto;
+    padding: 12px 17px;
+    text-align: center;
+    
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    display: block;
+    border: 2px solid grey;
+    border-radius: 12px;
+    margin: 11px auto;
+    padding: 7px 50px;
+}
+button :hover{
+    background-color: rgb(22, 22, 22);
+}
